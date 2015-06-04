@@ -1,0 +1,564 @@
+/*
+    Taken and modified from http://flexboxgrid.com to provide a fallback for
+    browsers without flexbox support.
+
+    changes and additions heavily inspired by twbs/bootstrap's grid system
+*/
+
+:root {
+    --gutter-width: 1rem;
+    --outer-margin: 2rem;
+    --gutter-compensation: calc((var(--gutter-width) * 0.5) * -1 );
+    --half-gutter-width: calc((var(--gutter-width) * 0.5) * -1 );
+    --screen-xs-min: 30em;
+    --screen-sm-min: 48em;
+    --screen-md-min: 62em;
+    --screen-lg-min: 75em;
+    --container-sm: calc(45rem + var(--gutter-width));
+    --container-md: calc(60rem + var(--gutter-width));
+    --container-lg: calc(70rem + var(--gutter-width));
+}
+
+.container-fluid-no-flex {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: var(--outer-margin, 2rem);
+    padding-left: var(--outer-margin, 2rem);
+}
+
+.row-no-flex {
+    box-sizing: border-box;
+    margin-right: var(--gutter-compensation, -0.5);
+    margin-left: var(--gutter-compensation, -0.5);
+}
+
+.col-xs-1-no-flex,
+.col-xs-2-no-flex,
+.col-xs-3-no-flex,
+.col-xs-4-no-flex,
+.col-xs-5-no-flex,
+.col-xs-6-no-flex,
+.col-xs-7-no-flex,
+.col-xs-8-no-flex,
+.col-xs-9-no-flex,
+.col-xs-10-no-flex,
+.col-xs-11-no-flex,
+.col-xs-12-no-flex,
+.col-xs-offset-1-no-flex,
+.col-xs-offset-2-no-flex,
+.col-xs-offset-3-no-flex,
+.col-xs-offset-4-no-flex,
+.col-xs-offset-5-no-flex,
+.col-xs-offset-6-no-flex,
+.col-xs-offset-7-no-flex,
+.col-xs-offset-8-no-flex,
+.col-xs-offset-9-no-flex,
+.col-xs-offset-10-no-flex,
+.col-xs-offset-11-no-flex,
+.col-xs-offset-12-no-flex {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding-right: var(--half-gutter-width, 0.5rem);
+    padding-left: var(--half-gutter-width, 0.5rem);
+}
+
+.col-xs-1-no-flex {
+  width: 8.333%;
+}
+
+.col-xs-2-no-flex {
+  width: 16.667%;
+}
+
+.col-xs-3-no-flex {
+  width: 25%;
+}
+
+.col-xs-4-no-flex {
+  width: 33.333%;
+}
+
+.col-xs-5-no-flex {
+  width: 41.667%;
+}
+
+.col-xs-6-no-flex {
+  width: 50%;
+}
+
+.col-xs-7-no-flex {
+  width: 58.333%;
+}
+
+.col-xs-8-no-flex {
+  width: 66.667%;
+}
+
+.col-xs-9-no-flex {
+  width: 75%;
+}
+
+.col-xs-10-no-flex {
+  width: 83.333%;
+}
+
+.col-xs-11-no-flex {
+  width: 91.667%;
+}
+
+.col-xs-12-no-flex {
+  width: 100%;
+}
+
+.col-xs-offset-1-no-flex {
+  margin-left: 8.33333%;
+}
+
+.col-xs-offset-2-no-flex {
+  margin-left: 16.66667%;
+}
+
+.col-xs-offset-3-no-flex {
+  margin-left: 25%;
+}
+
+.col-xs-offset-4-no-flex {
+  margin-left: 33.33333%;
+}
+
+.col-xs-offset-5-no-flex {
+  margin-left: 41.66667%;
+}
+
+.col-xs-offset-6-no-flex {
+  margin-left: 50%;
+}
+
+.col-xs-offset-7-no-flex {
+  margin-left: 58.33333%;
+}
+
+.col-xs-offset-8-no-flex {
+  margin-left: 66.66667%;
+}
+
+.col-xs-offset-9-no-flex {
+  margin-left: 75%;
+}
+
+.col-xs-offset-10-no-flex {
+  margin-left: 83.33333%;
+}
+
+.col-xs-offset-11-no-flex {
+  margin-left: 91.66667%;
+}
+
+.col-xs-offset-12-no-flex {
+  margin-left: 100%;
+}
+
+@media (--sm-viewport) {
+    .container-no-flex {
+        width: var(--container-sm, 46rem);
+    }
+
+    .col-sm-no-flex,
+    .col-sm-1-no-flex,
+    .col-sm-2-no-flex,
+    .col-sm-3-no-flex,
+    .col-sm-4-no-flex,
+    .col-sm-5-no-flex,
+    .col-sm-6-no-flex,
+    .col-sm-7-no-flex,
+    .col-sm-8-no-flex,
+    .col-sm-9-no-flex,
+    .col-sm-10-no-flex,
+    .col-sm-11-no-flex,
+    .col-sm-12-no-flex,
+    .col-sm-offset-1-no-flex,
+    .col-sm-offset-2-no-flex,
+    .col-sm-offset-3-no-flex,
+    .col-sm-offset-4-no-flex,
+    .col-sm-offset-5-no-flex,
+    .col-sm-offset-6-no-flex,
+    .col-sm-offset-7-no-flex,
+    .col-sm-offset-8-no-flex,
+    .col-sm-offset-9-no-flex,
+    .col-sm-offset-10-no-flex,
+    .col-sm-offset-11-no-flex,
+    .col-sm-offset-12-no-flex {
+        position: relative;
+        float: left;
+        box-sizing: border-box;
+        padding-right: var(--half-gutter-width, 0.5rem);
+        padding-left: var(--half-gutter-width, 0.5rem);
+    }
+
+    .col-sm-1-no-flex {
+        width: 8.33333%;
+    }
+
+    .col-sm-2-no-flex {
+        width: 16.66667%;
+    }
+
+    .col-sm-3-no-flex {
+        width: 25%;
+    }
+
+    .col-sm-4-no-flex {
+        width: 33.33333%;
+    }
+
+    .col-sm-5-no-flex {
+        width: 41.66667%;
+    }
+
+    .col-sm-6-no-flex {
+        width: 50%;
+    }
+
+    .col-sm-7-no-flex {
+        width: 58.33333%;
+    }
+
+    .col-sm-8-no-flex {
+        width: 66.66667%;
+    }
+
+    .col-sm-9-no-flex {
+        width: 75%;
+    }
+
+    .col-sm-10-no-flex {
+        width: 83.33333%;
+    }
+
+    .col-sm-11-no-flex {
+        width: 91.66667%;
+    }
+
+    .col-sm-12-no-flex {
+        width: 100%;
+    }
+
+    .col-sm-offset-1-no-flex {
+        margin-left: 8.33333%;
+    }
+
+    .col-sm-offset-2-no-flex {
+        margin-left: 16.66667%;
+    }
+
+    .col-sm-offset-3-no-flex {
+        margin-left: 25%;
+    }
+
+    .col-sm-offset-4-no-flex {
+        margin-left: 33.33333%;
+    }
+
+    .col-sm-offset-5-no-flex {
+        margin-left: 41.66667%;
+    }
+
+    .col-sm-offset-6-no-flex {
+        margin-left: 50%;
+    }
+
+    .col-sm-offset-7-no-flex {
+        margin-left: 58.33333%;
+    }
+
+    .col-sm-offset-8-no-flex {
+        margin-left: 66.66667%;
+    }
+
+    .col-sm-offset-9-no-flex {
+        margin-left: 75%;
+    }
+
+    .col-sm-offset-10-no-flex {
+        margin-left: 83.33333%;
+    }
+
+    .col-sm-offset-11-no-flex {
+        margin-left: 91.66667%;
+    }
+
+    .col-sm-offset-12-no-flex {
+        margin-left: 100%;
+    }
+
+}
+
+@media (--md-viewport) {
+    .container-no-flex {
+        width: var(--container-md, 61rem);
+    }
+
+    .col-md-no-flex,
+    .col-md-1-no-flex,
+    .col-md-2-no-flex,
+    .col-md-3-no-flex,
+    .col-md-4-no-flex,
+    .col-md-5-no-flex,
+    .col-md-6-no-flex,
+    .col-md-7-no-flex,
+    .col-md-8-no-flex,
+    .col-md-9-no-flex,
+    .col-md-10-no-flex,
+    .col-md-11-no-flex,
+    .col-md-12-no-flex,
+    .col-md-offset-1-no-flex,
+    .col-md-offset-2-no-flex,
+    .col-md-offset-3-no-flex,
+    .col-md-offset-4-no-flex,
+    .col-md-offset-5-no-flex,
+    .col-md-offset-6-no-flex,
+    .col-md-offset-7-no-flex,
+    .col-md-offset-8-no-flex,
+    .col-md-offset-9-no-flex,
+    .col-md-offset-10-no-flex,
+    .col-md-offset-11-no-flex,
+    .col-md-offset-12-no-flex {
+        position: relative;
+        float: left;
+        box-sizing: border-box;
+        padding-right: var(--half-gutter-width, 0.5rem);
+        padding-left: var(--half-gutter-width, 0.5rem);
+    }
+
+    .col-md-1-no-flex {
+        width: 8.33333%;
+    }
+
+    .col-md-2-no-flex {
+        width: 16.66667%;
+    }
+
+    .col-md-3-no-flex {
+        width: 25%;
+    }
+
+    .col-md-4-no-flex {
+        width: 33.33333%;
+    }
+
+    .col-md-5-no-flex {
+        width: 41.66667%;
+    }
+
+    .col-md-6-no-flex {
+        width: 50%;
+    }
+
+    .col-md-7-no-flex {
+        width: 58.33333%;
+    }
+
+    .col-md-8-no-flex {
+        width: 66.66667%;
+    }
+
+    .col-md-9-no-flex {
+        width: 75%;
+    }
+
+    .col-md-10-no-flex {
+        width: 83.33333%;
+    }
+
+    .col-md-11-no-flex {
+        width: 91.66667%;
+    }
+
+    .col-md-12-no-flex {
+        width: 100%;
+    }
+
+    .col-md-offset-1-no-flex {
+        margin-left: 8.33333%;
+    }
+
+    .col-md-offset-2-no-flex {
+        margin-left: 16.66667%;
+    }
+
+    .col-md-offset-3-no-flex {
+        margin-left: 25%;
+    }
+
+    .col-md-offset-4-no-flex {
+        margin-left: 33.33333%;
+    }
+
+    .col-md-offset-5-no-flex {
+        margin-left: 41.66667%;
+    }
+
+    .col-md-offset-6-no-flex {
+        margin-left: 50%;
+    }
+
+    .col-md-offset-7-no-flex {
+        margin-left: 58.33333%;
+    }
+
+    .col-md-offset-8-no-flex {
+        margin-left: 66.66667%;
+    }
+
+    .col-md-offset-9-no-flex {
+        margin-left: 75%;
+    }
+
+    .col-md-offset-10-no-flex {
+        margin-left: 83.33333%;
+    }
+
+    .col-md-offset-11-no-flex {
+        margin-left: 91.66667%;
+    }
+
+    .col-md-offset-12-no-flex {
+        margin-left: 100%;
+    }
+
+}
+
+@media (--lg-viewport) {
+    .container-no-flex {
+        width: var(--container-lg, 71rem);
+    }
+
+    .col-lg,
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-offset-1,
+    .col-lg-offset-2,
+    .col-lg-offset-3,
+    .col-lg-offset-4,
+    .col-lg-offset-5,
+    .col-lg-offset-6,
+    .col-lg-offset-7,
+    .col-lg-offset-8,
+    .col-lg-offset-9,
+    .col-lg-offset-10,
+    .col-lg-offset-11,
+    .col-lg-offset-12 {
+        box-sizing: border-box;
+        flex: 0 0 auto;
+        padding-right: var(--half-gutter-width, 0.5rem);
+        padding-left: var(--half-gutter-width, 0.5rem);
+    }
+
+    .col-lg-1-no-flex {
+        width: 8.33333%;
+    }
+
+    .col-lg-2-no-flex {
+        width: 16.66667%;
+    }
+
+    .col-lg-3-no-flex {
+        width: 25%;
+    }
+
+    .col-lg-4-no-flex {
+        width: 33.33333%;
+    }
+
+    .col-lg-5-no-flex {
+        width: 41.66667%;
+    }
+
+    .col-lg-6-no-flex {
+        width: 50%;
+    }
+
+    .col-lg-7-no-flex {
+        width: 58.33333%;
+    }
+
+    .col-lg-8-no-flex {
+        width: 66.66667%;
+    }
+
+    .col-lg-9-no-flex {
+        width: 75%;
+    }
+
+    .col-lg-10-no-flex {
+        width: 83.33333%;
+    }
+
+    .col-lg-11-no-flex {
+        width: 91.66667%;
+    }
+
+    .col-lg-12-no-flex {
+        width: 100%;
+    }
+
+    .col-lg-offset-1-no-flex {
+        margin-left: 8.33333%;
+    }
+
+    .col-lg-offset-2-no-flex {
+        margin-left: 16.66667%;
+    }
+
+    .col-lg-offset-3-no-flex {
+        margin-left: 25%;
+    }
+
+    .col-lg-offset-4-no-flex {
+        margin-left: 33.33333%;
+    }
+
+    .col-lg-offset-5-no-flex {
+        margin-left: 41.66667%;
+    }
+
+    .col-lg-offset-6-no-flex {
+        margin-left: 50%;
+    }
+
+    .col-lg-offset-7-no-flex {
+        margin-left: 58.33333%;
+    }
+
+    .col-lg-offset-8-no-flex {
+        margin-left: 66.66667%;
+    }
+
+    .col-lg-offset-9-no-flex {
+        margin-left: 75%;
+    }
+
+    .col-lg-offset-10-no-flex {
+        margin-left: 83.33333%;
+    }
+
+    .col-lg-offset-11-no-flex {
+        margin-left: 91.66667%;
+    }
+
+    .col-lg-offset-12-no-flex {
+        margin-left: 100%;
+    }
+
+}

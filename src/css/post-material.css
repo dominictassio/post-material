@@ -1,6 +1,10 @@
 /* Utils */
 @import "utils/media-queries.css";
 
+/* Grid */
+@import "styles/grid.css";
+@import "styles/grid-no-flex.css";
+
 /* Shadows */
 @import "styles/shadows.css";
 
