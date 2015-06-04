@@ -1,0 +1,20 @@
+{
+  "name": "post-material",
+  "version": "0.0.1",
+  "description": "A material design css framework built using postcss with cssnext",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dominictassio/post-material.git"
+  },
+  "author": "Dominic Tassio <dominic.tassio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominictassio/post-material/issues"
+  },
+  "homepage": "https://github.com/dominictassio/post-material",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cssnext": "^1.0.0"
+  }
+}

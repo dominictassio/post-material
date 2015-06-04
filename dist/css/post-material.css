@@ -1,0 +1,78 @@
+/* colors */
+/* Color variables */
+:root {
+	/* Red */
+	/* Red Accents */
+}
+
+/* Colors */
+.red-50,
+.red-tint-5 {
+	background-color: #FFEBEE;
+}
+
+.red-100,
+.red-tint-4 {
+	background-color: #FFCDD2;
+}
+
+.red-200,
+.red-tint-3 {
+	background-color: #EF9A9A;
+}
+
+.red-300,
+.red-tint-2 {
+	background-color: #E57373;
+}
+
+.red-400,
+.red-tint-1 {
+	background-color: #EF5350;
+}
+
+.red-500,
+.red {
+	background-color: #F44336;
+}
+
+.red-600,
+.red-shade-1 {
+	background-color: #E53935;
+}
+
+.red-700,
+.red-shade-2 {
+	background-color: #D32F2F;
+}
+
+.red-800,
+.red-shade-3 {
+	background-color: #C62828;
+}
+
+.red-900,
+.red-shade-4 {
+	background-color: #B71C1C;
+}
+
+.red-A100,
+.red-accent-1 {
+	background-color: #FF8A80;
+}
+
+.red-A200,
+.red-accent-2 {
+	background-color: #FF5252;
+}
+
+.red-A300,
+.red-accent-3 {
+	background-color: #FF1744;
+}
+
+.red-A400,
+.red-accent-4 {
+	background-color: #D50000;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jc3MvcG9zdC1tYXRlcmlhbC5jc3MiLCJzcmMvY3NzL3N0eWxlcy9jb2xvcnMvY29sb3IuY3NzIiwic3JjL2Nzcy9zdHlsZXMvY29sb3JzL2NvbG9yLXZhcmlhYmxlcy5jc3MiLCJzcmMvY3NzL3N0eWxlcy9jb2xvcnMvcmVkLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFZO0FDQVoscUJBQXFCO0FDQXJCO0NBQ0MsU0FBUztDQVdULGlCQUFpQjtDQUtqQjs7QURkRCxZQUFZO0FFSFo7O0NBRUMsMEJBQWdDO0NBQ2hDOztBQUVEOztDQUVDLDBCQUFpQztDQUNqQzs7QUFFRDs7Q0FFQywwQkFBaUM7Q0FDakM7O0FBRUQ7O0NBRUMsMEJBQWlDO0NBQ2pDOztBQUVEOztDQUVDLDBCQUFpQztDQUNqQzs7QUFFRDs7Q0FFQywwQkFBaUM7Q0FDakM7O0FBRUQ7O0NBRUMsMEJBQWlDO0NBQ2pDOztBQUVEOztDQUVDLDBCQUFpQztDQUNqQzs7QUFFRDs7Q0FFQywwQkFBaUM7Q0FDakM7O0FBRUQ7O0NBRUMsMEJBQWlDO0NBQ2pDOztBQUVEOztDQUVDLDBCQUFrQztDQUNsQzs7QUFFRDs7Q0FFQywwQkFBa0M7Q0FDbEM7O0FBRUQ7O0NBRUMsMEJBQWtDO0NBQ2xDOztBQUVEOztDQUVDLDBCQUFrQztDQUNsQyIsImZpbGUiOiJzcmMvY3NzL3Bvc3QtbWF0ZXJpYWwuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogY29sb3JzICovXHJcbkBpbXBvcnQgXCJzdHlsZXMvY29sb3JzL2NvbG9yLmNzc1wiOyIsIi8qIENvbG9yIHZhcmlhYmxlcyAqL1xyXG5AaW1wb3J0IFwiY29sb3ItdmFyaWFibGVzLmNzc1wiO1xyXG5cclxuLyogQ29sb3JzICovXHJcbkBpbXBvcnQgXCJyZWQuY3NzXCI7IiwiOnJvb3Qge1xyXG5cdC8qIFJlZCAqL1xyXG5cdC0tcmVkLTUwOiAgI0ZGRUJFRTtcclxuXHQtLXJlZC0xMDA6ICNGRkNERDI7XHJcblx0LS1yZWQtMjAwOiAjRUY5QTlBO1xyXG5cdC0tcmVkLTMwMDogI0U1NzM3MztcclxuXHQtLXJlZC00MDA6ICNFRjUzNTA7XHJcblx0LS1yZWQtNTAwOiAjRjQ0MzM2O1xyXG5cdC0tcmVkLTYwMDogI0U1MzkzNTtcclxuXHQtLXJlZC03MDA6ICNEMzJGMkY7XHJcblx0LS1yZWQtODAwOiAjQzYyODI4O1xyXG5cdC0tcmVkLTkwMDogI0I3MUMxQztcclxuXHQvKiBSZWQgQWNjZW50cyAqL1xyXG5cdC0tcmVkLUExMDA6ICNGRjhBODA7XHJcblx0LS1yZWQtQTIwMDogI0ZGNTI1MjtcclxuXHQtLXJlZC1BMzAwOiAjRkYxNzQ0O1xyXG5cdC0tcmVkLUE0MDA6ICNENTAwMDA7XHJcbn0iLCIucmVkLTUwLFxyXG4ucmVkLXRpbnQtNSB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogdmFyKC0tcmVkLTUwKTtcclxufVxyXG5cclxuLnJlZC0xMDAsXHJcbi5yZWQtdGludC00IHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1yZWQtMTAwKTtcclxufVxyXG5cclxuLnJlZC0yMDAsXHJcbi5yZWQtdGludC0zIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1yZWQtMjAwKTtcclxufVxyXG5cclxuLnJlZC0zMDAsXHJcbi5yZWQtdGludC0yIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1yZWQtMzAwKTtcclxufVxyXG5cclxuLnJlZC00MDAsXHJcbi5yZWQtdGludC0xIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1yZWQtNDAwKTtcclxufVxyXG5cclxuLnJlZC01MDAsXHJcbi5yZWQge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHZhcigtLXJlZC01MDApO1xyXG59XHJcblxyXG4ucmVkLTYwMCxcclxuLnJlZC1zaGFkZS0xIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1yZWQtNjAwKTtcclxufVxyXG5cclxuLnJlZC03MDAsXHJcbi5yZWQtc2hhZGUtMiB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogdmFyKC0tcmVkLTcwMCk7XHJcbn1cclxuXHJcbi5yZWQtODAwLFxyXG4ucmVkLXNoYWRlLTMge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHZhcigtLXJlZC04MDApO1xyXG59XHJcblxyXG4ucmVkLTkwMCxcclxuLnJlZC1zaGFkZS00IHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1yZWQtOTAwKTtcclxufVxyXG5cclxuLnJlZC1BMTAwLFxyXG4ucmVkLWFjY2VudC0xIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1yZWQtQTEwMCk7XHJcbn1cclxuXHJcbi5yZWQtQTIwMCxcclxuLnJlZC1hY2NlbnQtMiB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogdmFyKC0tcmVkLUEyMDApO1xyXG59XHJcblxyXG4ucmVkLUEzMDAsXHJcbi5yZWQtYWNjZW50LTMge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHZhcigtLXJlZC1BMzAwKTtcclxufVxyXG5cclxuLnJlZC1BNDAwLFxyXG4ucmVkLWFjY2VudC00IHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1yZWQtQTQwMCk7XHJcbn0iXX0= */

@@ -1,0 +1,21 @@
+{
+    "rules": {
+        "semi": [
+            1,
+            "always"
+        ],
+        "curly": [
+            2,
+            "always"
+        ],
+        "strict": [
+            0
+        ],
+        "quotes": [
+            0
+        ]
+    },
+    "env": {
+        "node": true
+    }
+}
