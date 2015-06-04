@@ -1,0 +1,10 @@
+:root {
+    --screen-xs: 30em;
+    --screen-sm: 48em;
+    --screen-md: 62em;
+    --screen-lg: 75em;
+}
+
+@custom-media --sm-viewport only screen and (width >= var(--screen-sm));
+@custom-media --md-viewport only screen and (width >= var(--screen-md));
+@custom-media --lg-viewport only screen and (width >= var(--screen-lg));

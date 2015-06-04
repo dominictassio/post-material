@@ -1,2 +1,8 @@
-/* colors */
+/* Utils */
+@import "utils/media-queries.css";
+
+/* Shadows */
+@import "styles/shadows.css";
+
+/* Colors */
 @import "styles/colors/color.css";

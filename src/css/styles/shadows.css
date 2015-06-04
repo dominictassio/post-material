@@ -1,0 +1,126 @@
+:root {
+
+    /*
+    --shadow-#: 0 1px (# + 4)px 0 rgba(0, 0, 0, ((25 - #) / 200)),
+                0 1px (# + 2)px 0 rgba*0, 0, 0, ((49 - #) / 200));
+    */
+
+	--shadow-1: none;
+
+    /* Card (resting), Raised button (resting), Quick Entry/Search bar (resting) */
+	--shadow-2:  0 1px 5px  0 rgba(0, 0, 0, 0.12),
+				 0 1px 3px  0 rgba(0, 0, 0, 0.24);
+
+    /* Refresh indicator, Quick entry/Search bar (scolled) */
+	--shadow-3:  0 2px 6px  0 rgba(0, 0, 0, 0.12),
+				 0 2px 4px  0 rgba(0, 0, 0, 0.23);
+
+    /* App Bar */
+	--shadow-4:  0 3px 7px  0 rgba(0, 0, 0, 0.11),
+				 0 3px 5px  0 rgba(0, 0, 0, 0.23);
+
+    /*  */
+	--shadow-5:  0 4px 8px  0 rgba(0, 0, 0, 0.1),
+				 0 4px 6px  0 rgba(0, 0, 0, 0.23);
+
+    /* Floating action button (resting), Snackbar */
+	--shadow-6:  0 5px 9px  0 rgba(0, 0, 0, 0.1),
+				 0 5px 7px  0 rgba(0, 0, 0, 0.22);
+
+    /*  */
+	--shadow-7:  0 6px 10px 0 rgba(0, 0, 0, 0.095),
+				 0 6px 8px  0 rgba(0, 0, 0, 0.21);
+
+    /* Menu, Card (picked up), Raised button (pressed) */
+	--shadow-8:  0 7px 11px 0 rgba(0, 0, 0, 0.09),
+				 0 7px 9px  0 rgba(0, 0, 0, 0.21);
+
+    /* Sub menu (+1dp for earch sub menu) */
+	--shadow-9:  0 8px 12px 0 rgba(0, 0, 0, 0.085),
+				 0 8px 10px 0 rgba(0, 0, 0, 0.205);
+
+    /*  */
+	--shadow-10: 0 9px 13px 0 rgba(0, 0, 0, 0.08),
+				 0 9px 11px 0 rgba(0, 0, 0, 0.2);
+
+    /*  */
+	--shadow-11: 0 10px 14px 0 rgba(0, 0, 0, 0.075),
+				 0 10px 12px 0 rgba(0, 0, 0, 0.195);
+
+    /* Floating action button (pressed) */
+	--shadow-12: 0 11px 15px 0 rgba(0, 0, 0, 0.07),
+				 0 11px 13px 0 rgba(0, 0, 0, 0.19);
+
+    /*  */
+	--shadow-13: 0 12px 16px 0 rgba(0, 0, 0, 0.065),
+				 0 12px 14px 0 rgba(0, 0, 0, 0.185);
+
+    /*  */
+	--shadow-14: 0 13px 17px 0 rgba(0, 0, 0, 0.06),
+				 0 13px 15px 0 rgba(0, 0, 0, 0.18);
+
+    /*  */
+	--shadow-15: 0 14px 18px 0 rgba(0, 0, 0, 0.055),
+				 0 14px 16px 0 rgba(0, 0, 0, 0.175);
+
+    /* Nav drawer, Right drawer, Bottom Sheet */
+	--shadow-16: 0 15px 19px 0 rgba(0, 0, 0, 0.05),
+				 0 15px 17px 0 rgba(0, 0, 0, 0.17);
+
+    /*  */
+	--shadow-17: 0 16px 20px 0 rgba(0, 0, 0, 0.045),
+				 0 16px 18px 0 rgba(0, 0, 0, 0.165);
+
+    /*  */
+	--shadow-18: 0 17px 21px 0 rgba(0, 0, 0, 0.04),
+				 0 17px 19px 0 rgba(0, 0, 0, 0.16);
+
+    /*  */
+	--shadow-19: 0 18px 22px 0 rgba(0, 0, 0, 0.035),
+				 0 18px 20px 0 rgba(0, 0, 0, 0.155);
+
+    /*  */
+    --shadow-20: 0 19px 23px 0 rgba(0, 0, 0, 0.03),
+                 0 19px 21px 0 rgba(0, 0, 0, 0.15);
+
+    /*  */
+    --shadow-21: 0 20px 24px 0 rgba(0, 0, 0, 0.025),
+                 0 20px 22px 0 rgba(0, 0, 0, 0.145);
+
+    /*  */
+    --shadow-22: 0 21px 25px 0 rgba(0, 0, 0, 0.02),
+                 0 21px 23px 0 rgba(0, 0, 0, 0.14);
+
+    /*  */
+    --shadow-23: 0 22px 26px 0 rgba(0, 0, 0, 0.015),
+                 0 22px 24px 0 rgba(0, 0, 0, 0.135);
+
+    /* Dialog, Picker */
+    --shadow-24: 0 23px 27px 0 rgba(0, 0, 0, 0.01),
+                 0 23px 25px 0 rgba(0, 0, 0, 0.13);
+}
+
+.shadow-1 { box-shadow: var(--shadow-1); }
+.shadow-2 { box-shadow: var(--shadow-2); }
+.shadow-3 { box-shadow: var(--shadow-3); }
+.shadow-4 { box-shadow: var(--shadow-4); }
+.shadow-5 { box-shadow: var(--shadow-5); }
+.shadow-6 { box-shadow: var(--shadow-6); }
+.shadow-7 { box-shadow: var(--shadow-7); }
+.shadow-8 { box-shadow: var(--shadow-8); }
+.shadow-9 { box-shadow: var(--shadow-9); }
+.shadow-10 { box-shadow: var(--shadow-10); }
+.shadow-11 { box-shadow: var(--shadow-11); }
+.shadow-12 { box-shadow: var(--shadow-12); }
+.shadow-13 { box-shadow: var(--shadow-13); }
+.shadow-14 { box-shadow: var(--shadow-14); }
+.shadow-15 { box-shadow: var(--shadow-15); }
+.shadow-16 { box-shadow: var(--shadow-16); }
+.shadow-17 { box-shadow: var(--shadow-17); }
+.shadow-18 { box-shadow: var(--shadow-18); }
+.shadow-19 { box-shadow: var(--shadow-19); }
+.shadow-20 { box-shadow: var(--shadow-20); }
+.shadow-21 { box-shadow: var(--shadow-21); }
+.shadow-22 { box-shadow: var(--shadow-22); }
+.shadow-23 { box-shadow: var(--shadow-23); }
+.shadow-24 { box-shadow: var(--shadow-24); }
