@@ -1,0 +1,69 @@
+.orange-50,
+.orange-tint-5 {
+    background-color: var(--orange-50);
+}
+
+.orange-100,
+.orange-tint-4 {
+    background-color: var(--orange-100);
+}
+
+.orange-200,
+.orange-tint-3 {
+    background-color: var(--orange-200);
+}
+
+.orange-300,
+.orange-tint-2 {
+    background-color: var(--orange-300);
+}
+
+.orange-400,
+.orange-tint-1 {
+    background-color: var(--orange-400);
+}
+
+.orange-500,
+.orange {
+    background-color: var(--orange-500);
+}
+
+.orange-600,
+.orange-shade-1 {
+    background-color: var(--orange-600);
+}
+
+.orange-700,
+.orange-shade-2 {
+    background-color: var(--orange-700);
+}
+
+.orange-800,
+.orange-shade-3 {
+    background-color: var(--orange-800);
+}
+
+.orange-900,
+.orange-shade-4 {
+    background-color: var(--orange-900);
+}
+
+.orange-A100,
+.orange-accent-1 {
+    background-color: var(--orange-A100);
+}
+
+.orange-A200,
+.orange-accent-2 {
+    background-color: var(--orange-A200);
+}
+
+.orange-A300,
+.orange-accent-3 {
+    background-color: var(--orange-A300);
+}
+
+.orange-A400,
+.orange-accent-4 {
+    background-color: var(--orange-A400);
+}

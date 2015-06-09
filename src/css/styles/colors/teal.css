@@ -1,0 +1,69 @@
+.teal-50,
+.teal-tint-5 {
+    background-color: var(--teal-50);
+}
+
+.teal-100,
+.teal-tint-4 {
+    background-color: var(--teal-100);
+}
+
+.teal-200,
+.teal-tint-3 {
+    background-color: var(--teal-200);
+}
+
+.teal-300,
+.teal-tint-2 {
+    background-color: var(--teal-300);
+}
+
+.teal-400,
+.teal-tint-1 {
+    background-color: var(--teal-400);
+}
+
+.teal-500,
+.teal {
+    background-color: var(--teal-500);
+}
+
+.teal-600,
+.teal-shade-1 {
+    background-color: var(--teal-600);
+}
+
+.teal-700,
+.teal-shade-2 {
+    background-color: var(--teal-700);
+}
+
+.teal-800,
+.teal-shade-3 {
+    background-color: var(--teal-800);
+}
+
+.teal-900,
+.teal-shade-4 {
+    background-color: var(--teal-900);
+}
+
+.teal-A100,
+.teal-accent-1 {
+    background-color: var(--teal-A100);
+}
+
+.teal-A200,
+.teal-accent-2 {
+    background-color: var(--teal-A200);
+}
+
+.teal-A300,
+.teal-accent-3 {
+    background-color: var(--teal-A300);
+}
+
+.teal-A400,
+.teal-accent-4 {
+    background-color: var(--teal-A400);
+}

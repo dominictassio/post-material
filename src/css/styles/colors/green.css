@@ -1,0 +1,69 @@
+.green-50,
+.green-tint-5 {
+    background-color: var(--green-50);
+}
+
+.green-100,
+.green-tint-4 {
+    background-color: var(--green-100);
+}
+
+.green-200,
+.green-tint-3 {
+    background-color: var(--green-200);
+}
+
+.green-300,
+.green-tint-2 {
+    background-color: var(--green-300);
+}
+
+.green-400,
+.green-tint-1 {
+    background-color: var(--green-400);
+}
+
+.green-500,
+.green {
+    background-color: var(--green-500);
+}
+
+.green-600,
+.green-shade-1 {
+    background-color: var(--green-600);
+}
+
+.green-700,
+.green-shade-2 {
+    background-color: var(--green-700);
+}
+
+.green-800,
+.green-shade-3 {
+    background-color: var(--green-800);
+}
+
+.green-900,
+.green-shade-4 {
+    background-color: var(--green-900);
+}
+
+.green-A100,
+.green-accent-1 {
+    background-color: var(--green-A100);
+}
+
+.green-A200,
+.green-accent-2 {
+    background-color: var(--green-A200);
+}
+
+.green-A300,
+.green-accent-3 {
+    background-color: var(--green-A300);
+}
+
+.green-A400,
+.green-accent-4 {
+    background-color: var(--green-A400);
+}

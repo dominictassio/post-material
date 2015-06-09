@@ -1,0 +1,69 @@
+.deep-orange-50,
+.deep-orange-tint-5 {
+    background-color: var(--deep-orange-50);
+}
+
+.deep-orange-100,
+.deep-orange-tint-4 {
+    background-color: var(--deep-orange-100);
+}
+
+.deep-orange-200,
+.deep-orange-tint-3 {
+    background-color: var(--deep-orange-200);
+}
+
+.deep-orange-300,
+.deep-orange-tint-2 {
+    background-color: var(--deep-orange-300);
+}
+
+.deep-orange-400,
+.deep-orange-tint-1 {
+    background-color: var(--deep-orange-400);
+}
+
+.deep-orange-500,
+.deep-orange {
+    background-color: var(--deep-orange-500);
+}
+
+.deep-orange-600,
+.deep-orange-shade-1 {
+    background-color: var(--deep-orange-600);
+}
+
+.deep-orange-700,
+.deep-orange-shade-2 {
+    background-color: var(--deep-orange-700);
+}
+
+.deep-orange-800,
+.deep-orange-shade-3 {
+    background-color: var(--deep-orange-800);
+}
+
+.deep-orange-900,
+.deep-orange-shade-4 {
+    background-color: var(--deep-orange-900);
+}
+
+.deep-orange-A100,
+.deep-orange-accent-1 {
+    background-color: var(--deep-orange-A100);
+}
+
+.deep-orange-A200,
+.deep-orange-accent-2 {
+    background-color: var(--deep-orange-A200);
+}
+
+.deep-orange-A300,
+.deep-orange-accent-3 {
+    background-color: var(--deep-orange-A300);
+}
+
+.deep-orange-A400,
+.deep-orange-accent-4 {
+    background-color: var(--deep-orange-A400);
+}

@@ -1,0 +1,69 @@
+.blue-50,
+.blue-tint-5 {
+    background-color: var(--blue-50);
+}
+
+.blue-100,
+.blue-tint-4 {
+    background-color: var(--blue-100);
+}
+
+.blue-200,
+.blue-tint-3 {
+    background-color: var(--blue-200);
+}
+
+.blue-300,
+.blue-tint-2 {
+    background-color: var(--blue-300);
+}
+
+.blue-400,
+.blue-tint-1 {
+    background-color: var(--blue-400);
+}
+
+.blue-500,
+.blue {
+    background-color: var(--blue-500);
+}
+
+.blue-600,
+.blue-shade-1 {
+    background-color: var(--blue-600);
+}
+
+.blue-700,
+.blue-shade-2 {
+    background-color: var(--blue-700);
+}
+
+.blue-800,
+.blue-shade-3 {
+    background-color: var(--blue-800);
+}
+
+.blue-900,
+.blue-shade-4 {
+    background-color: var(--blue-900);
+}
+
+.blue-A100,
+.blue-accent-1 {
+    background-color: var(--blue-A100);
+}
+
+.blue-A200,
+.blue-accent-2 {
+    background-color: var(--blue-A200);
+}
+
+.blue-A300,
+.blue-accent-3 {
+    background-color: var(--blue-A300);
+}
+
+.blue-A400,
+.blue-accent-4 {
+    background-color: var(--blue-A400);
+}

@@ -3,3 +3,29 @@
 
 /* Colors */
 @import "red.css";
+@import "pink.css";
+@import "purple.css";
+@import "deep-purple.css";
+@import "indigo.css";
+@import "blue.css";
+@import "light-blue.css";
+@import "cyan.css";
+@import "teal.css";
+@import "green.css";
+@import "light-green.css";
+@import "lime.css";
+@import "yellow.css";
+@import "amber.css";
+@import "orange.css";
+@import "deep-orange.css";
+@import "brown.css";
+@import "grey.css";
+@import "blue-grey.css";
+
+.black {
+    background-color: var(--black);
+}
+
+.white {
+    background-color: var(--white);
+}

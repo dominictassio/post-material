@@ -1,0 +1,69 @@
+.yellow-50,
+.yellow-tint-5 {
+    background-color: var(--yellow-50);
+}
+
+.yellow-100,
+.yellow-tint-4 {
+    background-color: var(--yellow-100);
+}
+
+.yellow-200,
+.yellow-tint-3 {
+    background-color: var(--yellow-200);
+}
+
+.yellow-300,
+.yellow-tint-2 {
+    background-color: var(--yellow-300);
+}
+
+.yellow-400,
+.yellow-tint-1 {
+    background-color: var(--yellow-400);
+}
+
+.yellow-500,
+.yellow {
+    background-color: var(--yellow-500);
+}
+
+.yellow-600,
+.yellow-shade-1 {
+    background-color: var(--yellow-600);
+}
+
+.yellow-700,
+.yellow-shade-2 {
+    background-color: var(--yellow-700);
+}
+
+.yellow-800,
+.yellow-shade-3 {
+    background-color: var(--yellow-800);
+}
+
+.yellow-900,
+.yellow-shade-4 {
+    background-color: var(--yellow-900);
+}
+
+.yellow-A100,
+.yellow-accent-1 {
+    background-color: var(--yellow-A100);
+}
+
+.yellow-A200,
+.yellow-accent-2 {
+    background-color: var(--yellow-A200);
+}
+
+.yellow-A300,
+.yellow-accent-3 {
+    background-color: var(--yellow-A300);
+}
+
+.yellow-A400,
+.yellow-accent-4 {
+    background-color: var(--yellow-A400);
+}

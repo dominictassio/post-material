@@ -1,0 +1,69 @@
+.amber-50,
+.amber-tint-5 {
+    background-color: var(--amber-50);
+}
+
+.amber-100,
+.amber-tint-4 {
+    background-color: var(--amber-100);
+}
+
+.amber-200,
+.amber-tint-3 {
+    background-color: var(--amber-200);
+}
+
+.amber-300,
+.amber-tint-2 {
+    background-color: var(--amber-300);
+}
+
+.amber-400,
+.amber-tint-1 {
+    background-color: var(--amber-400);
+}
+
+.amber-500,
+.amber {
+    background-color: var(--amber-500);
+}
+
+.amber-600,
+.amber-shade-1 {
+    background-color: var(--amber-600);
+}
+
+.amber-700,
+.amber-shade-2 {
+    background-color: var(--amber-700);
+}
+
+.amber-800,
+.amber-shade-3 {
+    background-color: var(--amber-800);
+}
+
+.amber-900,
+.amber-shade-4 {
+    background-color: var(--amber-900);
+}
+
+.amber-A100,
+.amber-accent-1 {
+    background-color: var(--amber-A100);
+}
+
+.amber-A200,
+.amber-accent-2 {
+    background-color: var(--amber-A200);
+}
+
+.amber-A300,
+.amber-accent-3 {
+    background-color: var(--amber-A300);
+}
+
+.amber-A400,
+.amber-accent-4 {
+    background-color: var(--amber-A400);
+}

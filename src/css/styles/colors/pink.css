@@ -1,0 +1,69 @@
+.pink-50,
+.pink-tint-5 {
+    background-color: var(--pink-50);
+}
+
+.pink-100,
+.pink-tint-4 {
+    background-color: var(--pink-100);
+}
+
+.pink-200,
+.pink-tint-3 {
+    background-color: var(--pink-200);
+}
+
+.pink-300,
+.pink-tint-2 {
+    background-color: var(--pink-300);
+}
+
+.pink-400,
+.pink-tint-1 {
+    background-color: var(--pink-400);
+}
+
+.pink-500,
+.pink {
+    background-color: var(--pink-500);
+}
+
+.pink-600,
+.pink-shade-1 {
+    background-color: var(--pink-600);
+}
+
+.pink-700,
+.pink-shade-2 {
+    background-color: var(--pink-700);
+}
+
+.pink-800,
+.pink-shade-3 {
+    background-color: var(--pink-800);
+}
+
+.pink-900,
+.pink-shade-4 {
+    background-color: var(--pink-900);
+}
+
+.pink-A100,
+.pink-accent-1 {
+    background-color: var(--pink-A100);
+}
+
+.pink-A200,
+.pink-accent-2 {
+    background-color: var(--pink-A200);
+}
+
+.pink-A300,
+.pink-accent-3 {
+    background-color: var(--pink-A300);
+}
+
+.pink-A400,
+.pink-accent-4 {
+    background-color: var(--pink-A400);
+}

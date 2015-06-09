@@ -1,0 +1,69 @@
+.deep-purple-50,
+.deep-purple-tint-5 {
+    background-color: var(--deep-purple-50);
+}
+
+.deep-purple-100,
+.deep-purple-tint-4 {
+    background-color: var(--deep-purple-100);
+}
+
+.deep-purple-200,
+.deep-purple-tint-3 {
+    background-color: var(--deep-purple-200);
+}
+
+.deep-purple-300,
+.deep-purple-tint-2 {
+    background-color: var(--deep-purple-300);
+}
+
+.deep-purple-400,
+.deep-purple-tint-1 {
+    background-color: var(--deep-purple-400);
+}
+
+.deep-purple-500,
+.deep-purple {
+    background-color: var(--deep-purple-500);
+}
+
+.deep-purple-600,
+.deep-purple-shade-1 {
+    background-color: var(--deep-purple-600);
+}
+
+.deep-purple-700,
+.deep-purple-shade-2 {
+    background-color: var(--deep-purple-700);
+}
+
+.deep-purple-800,
+.deep-purple-shade-3 {
+    background-color: var(--deep-purple-800);
+}
+
+.deep-purple-900,
+.deep-purple-shade-4 {
+    background-color: var(--deep-purple-900);
+}
+
+.deep-purple-A100,
+.deep-purple-accent-1 {
+    background-color: var(--deep-purple-A100);
+}
+
+.deep-purple-A200,
+.deep-purple-accent-2 {
+    background-color: var(--deep-purple-A200);
+}
+
+.deep-purple-A300,
+.deep-purple-accent-3 {
+    background-color: var(--deep-purple-A300);
+}
+
+.deep-purple-A400,
+.deep-purple-accent-4 {
+    background-color: var(--deep-purple-A400);
+}

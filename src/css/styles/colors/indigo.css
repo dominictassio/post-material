@@ -1,0 +1,69 @@
+.indigo-50,
+.indigo-tint-5 {
+    background-color: var(--indigo-50);
+}
+
+.indigo-100,
+.indigo-tint-4 {
+    background-color: var(--indigo-100);
+}
+
+.indigo-200,
+.indigo-tint-3 {
+    background-color: var(--indigo-200);
+}
+
+.indigo-300,
+.indigo-tint-2 {
+    background-color: var(--indigo-300);
+}
+
+.indigo-400,
+.indigo-tint-1 {
+    background-color: var(--indigo-400);
+}
+
+.indigo-500,
+.indigo {
+    background-color: var(--indigo-500);
+}
+
+.indigo-600,
+.indigo-shade-1 {
+    background-color: var(--indigo-600);
+}
+
+.indigo-700,
+.indigo-shade-2 {
+    background-color: var(--indigo-700);
+}
+
+.indigo-800,
+.indigo-shade-3 {
+    background-color: var(--indigo-800);
+}
+
+.indigo-900,
+.indigo-shade-4 {
+    background-color: var(--indigo-900);
+}
+
+.indigo-A100,
+.indigo-accent-1 {
+    background-color: var(--indigo-A100);
+}
+
+.indigo-A200,
+.indigo-accent-2 {
+    background-color: var(--indigo-A200);
+}
+
+.indigo-A300,
+.indigo-accent-3 {
+    background-color: var(--indigo-A300);
+}
+
+.indigo-A400,
+.indigo-accent-4 {
+    background-color: var(--indigo-A400);
+}
