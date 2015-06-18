@@ -131,7 +131,7 @@
 			"file": "src/css/styles/colors/color-variables.css",
 			"settings":
 			{
-				"buffer_size": 1104,
+				"buffer_size": 6922,
 				"line_ending": "Windows"
 			}
 		}
@@ -213,6 +213,7 @@
 	},
 	"expanded_folders":
 	[
+		"/F/Users/Dominic/Documents/GitHub/post-material",
 		"/F/Users/Dominic/Documents/GitHub/post-material/src",
 		"/F/Users/Dominic/Documents/GitHub/post-material/src/css",
 		"/F/Users/Dominic/Documents/GitHub/post-material/src/css/styles",
@@ -308,7 +309,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 109.0,
 		"where_history":
 		[
 		]
@@ -318,6 +319,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"900",
+			"300",
 			"FOV",
 			"fForeground",
 			"bPercip",
@@ -367,15 +370,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1104,
+						"buffer_size": 6922,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6478,
+								6478
 							]
 						],
 						"settings":
@@ -384,7 +387,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3015.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -505,8 +508,8 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 166.0,
+	"side_bar_visible": false,
+	"side_bar_width": 222.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
