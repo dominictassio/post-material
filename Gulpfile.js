@@ -1,12 +1,14 @@
 var gulp = require('gulp');
-var cssnext = require('gulp-cssnext');
+
+var postcss = require('gulp-postcss');
+var cssnext = require('cssnext');
 
 gulp.task('css', function() {
+    var processors = [
+        cssnext
+    ];
 	gulp.src('src/css/post-material.css')
-		.pipe(cssnext({
-			sourcemap: true,
-            compress: true
-		}))
+		.pipe(postcss(processors))
 		.pipe(gulp.dest('./dist/css'));
 });
 

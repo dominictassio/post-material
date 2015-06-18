@@ -14,7 +14,8 @@
   },
   "homepage": "https://github.com/dominictassio/post-material",
   "devDependencies": {
+    "cssnext": "^1.7.0",
     "gulp": "^3.9.0",
-    "gulp-cssnext": "^1.0.0"
+    "gulp-postcss": "^5.1.8"
   }
 }
