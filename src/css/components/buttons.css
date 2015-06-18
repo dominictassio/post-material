@@ -1,0 +1,41 @@
+.button,
+.button-raised {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    min-width: 48px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 8px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+}
+
+.button-raised {
+    box-shadow: var(--shadow-2);
+}
+
+.button:active,
+.button-raised:active {
+    box-shadow: var(--shadow-8);
+}
+
+.button.disabled,
+.button:disabled,
+.button-reaised:disabled {
+    box-shadow: none;
+    color: var(--grey-500);
+    cursor: auto;
+    pointer-events: none;
+}

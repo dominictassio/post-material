@@ -1,5 +1,7 @@
 /* Utils */
 @import "utils/media-queries.css";
+@import "utils/normalize.css";
+@import "utils/globals.css";
 
 /* Grid */
 @import "styles/grid.css";
@@ -10,3 +12,6 @@
 
 /* Colors */
 @import "styles/colors/color.css";
+
+/* Components */
+@import "components/buttons.css";
