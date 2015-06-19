@@ -1,0 +1,122 @@
+:root {
+    --typo-display-4: 112px;
+    --typo-display-3:  56px;
+    --typo-display-2:  45px;
+    --typo-display-1:  34px;
+    --typo-headline:   24px;
+    --typo-title:      20px;
+    --typo-subhead:    16px;
+    --typo-body:       14px;
+    --typo-caption:    12px;
+    --typo-button:     14px;
+}
+
+/* Adapted from https://github.com/PolymerElements/paper-styles/blob/master/typography.html */
+
+@define-mixin typo-common-base {
+    font-family: 'Roboto', 'Noto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+@define-mixin typo-nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@define-mixin typo-font-base $weight, $height {
+    font-weight: $weight;
+    line-height: $height;
+}
+
+@define-mixin typo-display-4 {
+    @mixin typo-common-base;
+    @mixin typo-nowrap;
+
+    @mixin typo-font-base 300, 120px;
+    font-size: var(--typo-display-4);
+    letter-spacing: -.044em;
+}
+
+@define-mixin typo-display-3 {
+    @mixin typo-common-base;
+    @mixin typo-nowrap;
+
+    @mixin typo-font-base 400, 60px;
+    font-size: var(--typo-display-3);
+    letter-spacing: -.026em;
+}
+
+@define-mixin typo-display-2 {
+    @mixin typo-common-base;
+
+    @mixin typo-font-base 400, 48px;
+    font-size: var(--typo-display-2);
+    letter-spacing: -.018em;
+}
+
+@define-mixin typo-display-1 {
+    @mixin typo-common-base;
+
+    @mixin typo-font-base 400, 40px;
+    font-size: var(--typo-display-1);
+    letter-spacing: -.01em;
+}
+
+@define-mixin typo-headline {
+    @mixin typo-common-base;
+
+    @mixin typo-font-base 400, 32px;
+    font-size: var(--typo-headline);
+    letter-spacing: -.012em;
+}
+
+@define-mixin typo-title {
+    @mixin typo-common-base;
+    @mixin typo-nowrap;
+
+    @mixin typo-font-base 500, 28px;
+    font-size: var(--typo-title);
+}
+
+@define-mixin typo-subhead {
+    @mixin typo-common-base;
+
+    @mixin typo-font-base 400, 24px;
+    font-size: var(--typo-subhead);
+}
+
+@define-mixin typo-body-2 {
+    @mixin typo-common-base;
+
+    @mixin typo-font-base 500, 24px;
+    font-size: var(--typo-body);
+}
+
+@define-mixin typo-body-1 {
+    @mixin typo-common-base;
+
+    @mixin typo-font-base 400, 20px;
+    font-size: var(--typo-body);
+}
+
+@define-mixin typo-caption {
+    @mixin typo-common-base;
+    @mixin typo-nowrap;
+
+    @mixin typo-font-base 400, 20px;
+    font-size: var(--typo-caption);
+    letter-spacing: 0.011em;
+}
+
+@define-mixin typo-button {
+    @mixin typo-common-base;
+    @mixin typo-nowrap;
+
+    @mixin typo-font-base 500, 24px;
+    font-size: var(--typo-button);
+    letter-spacing: 0.018em;
+    text-align: center;
+    text-transform: uppercase;
+}

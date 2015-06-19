@@ -1,69 +1,69 @@
 .cyan-50,
 .cyan-tint-5 {
-    background-color: var(--cyan-50);
+    background-color: var(--cyan-50) !important;
 }
 
 .cyan-100,
 .cyan-tint-4 {
-    background-color: var(--cyan-100);
+    background-color: var(--cyan-100) !important;
 }
 
 .cyan-200,
 .cyan-tint-3 {
-    background-color: var(--cyan-200);
+    background-color: var(--cyan-200) !important;
 }
 
 .cyan-300,
 .cyan-tint-2 {
-    background-color: var(--cyan-300);
+    background-color: var(--cyan-300) !important;
 }
 
 .cyan-400,
 .cyan-tint-1 {
-    background-color: var(--cyan-400);
+    background-color: var(--cyan-400) !important;
 }
 
 .cyan-500,
 .cyan {
-    background-color: var(--cyan-500);
+    background-color: var(--cyan-500) !important;
 }
 
 .cyan-600,
 .cyan-shade-1 {
-    background-color: var(--cyan-600);
+    background-color: var(--cyan-600) !important;
 }
 
 .cyan-700,
 .cyan-shade-2 {
-    background-color: var(--cyan-700);
+    background-color: var(--cyan-700) !important;
 }
 
 .cyan-800,
 .cyan-shade-3 {
-    background-color: var(--cyan-800);
+    background-color: var(--cyan-800) !important;
 }
 
 .cyan-900,
 .cyan-shade-4 {
-    background-color: var(--cyan-900);
+    background-color: var(--cyan-900) !important;
 }
 
 .cyan-A100,
 .cyan-accent-1 {
-    background-color: var(--cyan-A100);
+    background-color: var(--cyan-A100) !important;
 }
 
 .cyan-A200,
 .cyan-accent-2 {
-    background-color: var(--cyan-A200);
+    background-color: var(--cyan-A200) !important;
 }
 
 .cyan-A300,
 .cyan-accent-3 {
-    background-color: var(--cyan-A300);
+    background-color: var(--cyan-A300) !important;
 }
 
 .cyan-A400,
 .cyan-accent-4 {
-    background-color: var(--cyan-A400);
+    background-color: var(--cyan-A400) !important;
 }

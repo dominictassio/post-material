@@ -1,69 +1,69 @@
 .indigo-50,
 .indigo-tint-5 {
-    background-color: var(--indigo-50);
+    background-color: var(--indigo-50) !important;
 }
 
 .indigo-100,
 .indigo-tint-4 {
-    background-color: var(--indigo-100);
+    background-color: var(--indigo-100) !important;
 }
 
 .indigo-200,
 .indigo-tint-3 {
-    background-color: var(--indigo-200);
+    background-color: var(--indigo-200) !important;
 }
 
 .indigo-300,
 .indigo-tint-2 {
-    background-color: var(--indigo-300);
+    background-color: var(--indigo-300) !important;
 }
 
 .indigo-400,
 .indigo-tint-1 {
-    background-color: var(--indigo-400);
+    background-color: var(--indigo-400) !important;
 }
 
 .indigo-500,
 .indigo {
-    background-color: var(--indigo-500);
+    background-color: var(--indigo-500) !important;
 }
 
 .indigo-600,
 .indigo-shade-1 {
-    background-color: var(--indigo-600);
+    background-color: var(--indigo-600) !important;
 }
 
 .indigo-700,
 .indigo-shade-2 {
-    background-color: var(--indigo-700);
+    background-color: var(--indigo-700) !important;
 }
 
 .indigo-800,
 .indigo-shade-3 {
-    background-color: var(--indigo-800);
+    background-color: var(--indigo-800) !important;
 }
 
 .indigo-900,
 .indigo-shade-4 {
-    background-color: var(--indigo-900);
+    background-color: var(--indigo-900) !important;
 }
 
 .indigo-A100,
 .indigo-accent-1 {
-    background-color: var(--indigo-A100);
+    background-color: var(--indigo-A100) !important;
 }
 
 .indigo-A200,
 .indigo-accent-2 {
-    background-color: var(--indigo-A200);
+    background-color: var(--indigo-A200) !important;
 }
 
 .indigo-A300,
 .indigo-accent-3 {
-    background-color: var(--indigo-A300);
+    background-color: var(--indigo-A300) !important;
 }
 
 .indigo-A400,
 .indigo-accent-4 {
-    background-color: var(--indigo-A400);
+    background-color: var(--indigo-A400) !important;
 }

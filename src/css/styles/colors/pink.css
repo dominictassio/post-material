@@ -1,69 +1,69 @@
 .pink-50,
 .pink-tint-5 {
-    background-color: var(--pink-50);
+    background-color: var(--pink-50) !important;
 }
 
 .pink-100,
 .pink-tint-4 {
-    background-color: var(--pink-100);
+    background-color: var(--pink-100) !important;
 }
 
 .pink-200,
 .pink-tint-3 {
-    background-color: var(--pink-200);
+    background-color: var(--pink-200) !important;
 }
 
 .pink-300,
 .pink-tint-2 {
-    background-color: var(--pink-300);
+    background-color: var(--pink-300) !important;
 }
 
 .pink-400,
 .pink-tint-1 {
-    background-color: var(--pink-400);
+    background-color: var(--pink-400) !important;
 }
 
 .pink-500,
 .pink {
-    background-color: var(--pink-500);
+    background-color: var(--pink-500) !important;
 }
 
 .pink-600,
 .pink-shade-1 {
-    background-color: var(--pink-600);
+    background-color: var(--pink-600) !important;
 }
 
 .pink-700,
 .pink-shade-2 {
-    background-color: var(--pink-700);
+    background-color: var(--pink-700) !important;
 }
 
 .pink-800,
 .pink-shade-3 {
-    background-color: var(--pink-800);
+    background-color: var(--pink-800) !important;
 }
 
 .pink-900,
 .pink-shade-4 {
-    background-color: var(--pink-900);
+    background-color: var(--pink-900) !important;
 }
 
 .pink-A100,
 .pink-accent-1 {
-    background-color: var(--pink-A100);
+    background-color: var(--pink-A100) !important;
 }
 
 .pink-A200,
 .pink-accent-2 {
-    background-color: var(--pink-A200);
+    background-color: var(--pink-A200) !important;
 }
 
 .pink-A300,
 .pink-accent-3 {
-    background-color: var(--pink-A300);
+    background-color: var(--pink-A300) !important;
 }
 
 .pink-A400,
 .pink-accent-4 {
-    background-color: var(--pink-A400);
+    background-color: var(--pink-A400) !important;
 }

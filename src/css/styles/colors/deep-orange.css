@@ -1,69 +1,69 @@
 .deep-orange-50,
 .deep-orange-tint-5 {
-    background-color: var(--deep-orange-50);
+    background-color: var(--deep-orange-50) !important;
 }
 
 .deep-orange-100,
 .deep-orange-tint-4 {
-    background-color: var(--deep-orange-100);
+    background-color: var(--deep-orange-100) !important;
 }
 
 .deep-orange-200,
 .deep-orange-tint-3 {
-    background-color: var(--deep-orange-200);
+    background-color: var(--deep-orange-200) !important;
 }
 
 .deep-orange-300,
 .deep-orange-tint-2 {
-    background-color: var(--deep-orange-300);
+    background-color: var(--deep-orange-300) !important;
 }
 
 .deep-orange-400,
 .deep-orange-tint-1 {
-    background-color: var(--deep-orange-400);
+    background-color: var(--deep-orange-400) !important;
 }
 
 .deep-orange-500,
 .deep-orange {
-    background-color: var(--deep-orange-500);
+    background-color: var(--deep-orange-500) !important;
 }
 
 .deep-orange-600,
 .deep-orange-shade-1 {
-    background-color: var(--deep-orange-600);
+    background-color: var(--deep-orange-600) !important;
 }
 
 .deep-orange-700,
 .deep-orange-shade-2 {
-    background-color: var(--deep-orange-700);
+    background-color: var(--deep-orange-700) !important;
 }
 
 .deep-orange-800,
 .deep-orange-shade-3 {
-    background-color: var(--deep-orange-800);
+    background-color: var(--deep-orange-800) !important;
 }
 
 .deep-orange-900,
 .deep-orange-shade-4 {
-    background-color: var(--deep-orange-900);
+    background-color: var(--deep-orange-900) !important;
 }
 
 .deep-orange-A100,
 .deep-orange-accent-1 {
-    background-color: var(--deep-orange-A100);
+    background-color: var(--deep-orange-A100) !important;
 }
 
 .deep-orange-A200,
 .deep-orange-accent-2 {
-    background-color: var(--deep-orange-A200);
+    background-color: var(--deep-orange-A200) !important;
 }
 
 .deep-orange-A300,
 .deep-orange-accent-3 {
-    background-color: var(--deep-orange-A300);
+    background-color: var(--deep-orange-A300) !important;
 }
 
 .deep-orange-A400,
 .deep-orange-accent-4 {
-    background-color: var(--deep-orange-A400);
+    background-color: var(--deep-orange-A400) !important;
 }

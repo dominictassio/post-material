@@ -1,69 +1,69 @@
 .purple-50,
 .purple-tint-5 {
-    background-color: var(--purple-50);
+    background-color: var(--purple-50) !important;
 }
 
 .purple-100,
 .purple-tint-4 {
-    background-color: var(--purple-100);
+    background-color: var(--purple-100) !important;
 }
 
 .purple-200,
 .purple-tint-3 {
-    background-color: var(--purple-200);
+    background-color: var(--purple-200) !important;
 }
 
 .purple-300,
 .purple-tint-2 {
-    background-color: var(--purple-300);
+    background-color: var(--purple-300) !important;
 }
 
 .purple-400,
 .purple-tint-1 {
-    background-color: var(--purple-400);
+    background-color: var(--purple-400) !important;
 }
 
 .purple-500,
 .purple {
-    background-color: var(--purple-500);
+    background-color: var(--purple-500) !important;
 }
 
 .purple-600,
 .purple-shade-1 {
-    background-color: var(--purple-600);
+    background-color: var(--purple-600) !important;
 }
 
 .purple-700,
 .purple-shade-2 {
-    background-color: var(--purple-700);
+    background-color: var(--purple-700) !important;
 }
 
 .purple-800,
 .purple-shade-3 {
-    background-color: var(--purple-800);
+    background-color: var(--purple-800) !important;
 }
 
 .purple-900,
 .purple-shade-4 {
-    background-color: var(--purple-900);
+    background-color: var(--purple-900) !important;
 }
 
 .purple-A100,
 .purple-accent-1 {
-    background-color: var(--purple-A100);
+    background-color: var(--purple-A100) !important;
 }
 
 .purple-A200,
 .purple-accent-2 {
-    background-color: var(--purple-A200);
+    background-color: var(--purple-A200) !important;
 }
 
 .purple-A300,
 .purple-accent-3 {
-    background-color: var(--purple-A300);
+    background-color: var(--purple-A300) !important;
 }
 
 .purple-A400,
 .purple-accent-4 {
-    background-color: var(--purple-A400);
+    background-color: var(--purple-A400) !important;
 }

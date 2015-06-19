@@ -1,49 +1,49 @@
 .brown-50,
 .brown-tint-5 {
-    background-color: var(--brown-50);
+    background-color: var(--brown-50) !important;
 }
 
 .brown-100,
 .brown-tint-4 {
-    background-color: var(--brown-100);
+    background-color: var(--brown-100) !important;
 }
 
 .brown-200,
 .brown-tint-3 {
-    background-color: var(--brown-200);
+    background-color: var(--brown-200) !important;
 }
 
 .brown-300,
 .brown-tint-2 {
-    background-color: var(--brown-300);
+    background-color: var(--brown-300) !important;
 }
 
 .brown-400,
 .brown-tint-1 {
-    background-color: var(--brown-400);
+    background-color: var(--brown-400) !important;
 }
 
 .brown-500,
 .brown {
-    background-color: var(--brown-500);
+    background-color: var(--brown-500) !important;
 }
 
 .brown-600,
 .brown-shade-1 {
-    background-color: var(--brown-600);
+    background-color: var(--brown-600) !important;
 }
 
 .brown-700,
 .brown-shade-2 {
-    background-color: var(--brown-700);
+    background-color: var(--brown-700) !important;
 }
 
 .brown-800,
 .brown-shade-3 {
-    background-color: var(--brown-800);
+    background-color: var(--brown-800) !important;
 }
 
 .brown-900,
 .brown-shade-4 {
-    background-color: var(--brown-900);
+    background-color: var(--brown-900) !important;
 }

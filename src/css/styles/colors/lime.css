@@ -1,69 +1,69 @@
 .lime-50,
 .lime-tint-5 {
-    background-color: var(--lime-50);
+    background-color: var(--lime-50) !important;
 }
 
 .lime-100,
 .lime-tint-4 {
-    background-color: var(--lime-100);
+    background-color: var(--lime-100) !important;
 }
 
 .lime-200,
 .lime-tint-3 {
-    background-color: var(--lime-200);
+    background-color: var(--lime-200) !important;
 }
 
 .lime-300,
 .lime-tint-2 {
-    background-color: var(--lime-300);
+    background-color: var(--lime-300) !important;
 }
 
 .lime-400,
 .lime-tint-1 {
-    background-color: var(--lime-400);
+    background-color: var(--lime-400) !important;
 }
 
 .lime-500,
 .lime {
-    background-color: var(--lime-500);
+    background-color: var(--lime-500) !important;
 }
 
 .lime-600,
 .lime-shade-1 {
-    background-color: var(--lime-600);
+    background-color: var(--lime-600) !important;
 }
 
 .lime-700,
 .lime-shade-2 {
-    background-color: var(--lime-700);
+    background-color: var(--lime-700) !important;
 }
 
 .lime-800,
 .lime-shade-3 {
-    background-color: var(--lime-800);
+    background-color: var(--lime-800) !important;
 }
 
 .lime-900,
 .lime-shade-4 {
-    background-color: var(--lime-900);
+    background-color: var(--lime-900) !important;
 }
 
 .lime-A100,
 .lime-accent-1 {
-    background-color: var(--lime-A100);
+    background-color: var(--lime-A100) !important;
 }
 
 .lime-A200,
 .lime-accent-2 {
-    background-color: var(--lime-A200);
+    background-color: var(--lime-A200) !important;
 }
 
 .lime-A300,
 .lime-accent-3 {
-    background-color: var(--lime-A300);
+    background-color: var(--lime-A300) !important;
 }
 
 .lime-A400,
 .lime-accent-4 {
-    background-color: var(--lime-A400);
+    background-color: var(--lime-A400) !important;
 }

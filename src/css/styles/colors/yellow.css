@@ -1,69 +1,69 @@
 .yellow-50,
 .yellow-tint-5 {
-    background-color: var(--yellow-50);
+    background-color: var(--yellow-50) !important;
 }
 
 .yellow-100,
 .yellow-tint-4 {
-    background-color: var(--yellow-100);
+    background-color: var(--yellow-100) !important;
 }
 
 .yellow-200,
 .yellow-tint-3 {
-    background-color: var(--yellow-200);
+    background-color: var(--yellow-200) !important;
 }
 
 .yellow-300,
 .yellow-tint-2 {
-    background-color: var(--yellow-300);
+    background-color: var(--yellow-300) !important;
 }
 
 .yellow-400,
 .yellow-tint-1 {
-    background-color: var(--yellow-400);
+    background-color: var(--yellow-400) !important;
 }
 
 .yellow-500,
 .yellow {
-    background-color: var(--yellow-500);
+    background-color: var(--yellow-500) !important;
 }
 
 .yellow-600,
 .yellow-shade-1 {
-    background-color: var(--yellow-600);
+    background-color: var(--yellow-600) !important;
 }
 
 .yellow-700,
 .yellow-shade-2 {
-    background-color: var(--yellow-700);
+    background-color: var(--yellow-700) !important;
 }
 
 .yellow-800,
 .yellow-shade-3 {
-    background-color: var(--yellow-800);
+    background-color: var(--yellow-800) !important;
 }
 
 .yellow-900,
 .yellow-shade-4 {
-    background-color: var(--yellow-900);
+    background-color: var(--yellow-900) !important;
 }
 
 .yellow-A100,
 .yellow-accent-1 {
-    background-color: var(--yellow-A100);
+    background-color: var(--yellow-A100) !important;
 }
 
 .yellow-A200,
 .yellow-accent-2 {
-    background-color: var(--yellow-A200);
+    background-color: var(--yellow-A200) !important;
 }
 
 .yellow-A300,
 .yellow-accent-3 {
-    background-color: var(--yellow-A300);
+    background-color: var(--yellow-A300) !important;
 }
 
 .yellow-A400,
 .yellow-accent-4 {
-    background-color: var(--yellow-A400);
+    background-color: var(--yellow-A400) !important;
 }

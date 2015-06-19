@@ -1,0 +1,41 @@
+.card {
+    position: relative;
+    display: inline-block;
+    min-width: 128px;
+    min-height: 72px;
+    width: min-content;
+    margin: 8px;
+    border-radius: 2px;
+    box-shadow: var(--shadow-2);
+}
+
+[class^="card-content"]:not(:first-of-type) {
+    padding-top: 0;
+}
+
+.card-content--media {
+    position: relative;
+}
+
+.card-content--actions {
+    padding: 8px;
+}
+
+.card-content--primary {
+    position: relative;
+    padding: 16px 24px;
+}
+
+.card-content--primary-title {
+    @mixin typo-headline;
+}
+
+.card-content--primary-subtitle {
+    @mixin typo-subhead;
+    color: var(--grey-500);
+}
+
+.card-content--supporting {
+    position: relative;
+    padding: 16px;
+}

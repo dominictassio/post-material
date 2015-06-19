@@ -1,69 +1,69 @@
 .orange-50,
 .orange-tint-5 {
-    background-color: var(--orange-50);
+    background-color: var(--orange-50) !important;
 }
 
 .orange-100,
 .orange-tint-4 {
-    background-color: var(--orange-100);
+    background-color: var(--orange-100) !important;
 }
 
 .orange-200,
 .orange-tint-3 {
-    background-color: var(--orange-200);
+    background-color: var(--orange-200) !important;
 }
 
 .orange-300,
 .orange-tint-2 {
-    background-color: var(--orange-300);
+    background-color: var(--orange-300) !important;
 }
 
 .orange-400,
 .orange-tint-1 {
-    background-color: var(--orange-400);
+    background-color: var(--orange-400) !important;
 }
 
 .orange-500,
 .orange {
-    background-color: var(--orange-500);
+    background-color: var(--orange-500) !important;
 }
 
 .orange-600,
 .orange-shade-1 {
-    background-color: var(--orange-600);
+    background-color: var(--orange-600) !important;
 }
 
 .orange-700,
 .orange-shade-2 {
-    background-color: var(--orange-700);
+    background-color: var(--orange-700) !important;
 }
 
 .orange-800,
 .orange-shade-3 {
-    background-color: var(--orange-800);
+    background-color: var(--orange-800) !important;
 }
 
 .orange-900,
 .orange-shade-4 {
-    background-color: var(--orange-900);
+    background-color: var(--orange-900) !important;
 }
 
 .orange-A100,
 .orange-accent-1 {
-    background-color: var(--orange-A100);
+    background-color: var(--orange-A100) !important;
 }
 
 .orange-A200,
 .orange-accent-2 {
-    background-color: var(--orange-A200);
+    background-color: var(--orange-A200) !important;
 }
 
 .orange-A300,
 .orange-accent-3 {
-    background-color: var(--orange-A300);
+    background-color: var(--orange-A300) !important;
 }
 
 .orange-A400,
 .orange-accent-4 {
-    background-color: var(--orange-A400);
+    background-color: var(--orange-A400) !important;
 }

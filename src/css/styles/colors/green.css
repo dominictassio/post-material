@@ -1,69 +1,69 @@
 .green-50,
 .green-tint-5 {
-    background-color: var(--green-50);
+    background-color: var(--green-50) !important;
 }
 
 .green-100,
 .green-tint-4 {
-    background-color: var(--green-100);
+    background-color: var(--green-100) !important;
 }
 
 .green-200,
 .green-tint-3 {
-    background-color: var(--green-200);
+    background-color: var(--green-200) !important;
 }
 
 .green-300,
 .green-tint-2 {
-    background-color: var(--green-300);
+    background-color: var(--green-300) !important;
 }
 
 .green-400,
 .green-tint-1 {
-    background-color: var(--green-400);
+    background-color: var(--green-400) !important;
 }
 
 .green-500,
 .green {
-    background-color: var(--green-500);
+    background-color: var(--green-500) !important;
 }
 
 .green-600,
 .green-shade-1 {
-    background-color: var(--green-600);
+    background-color: var(--green-600) !important;
 }
 
 .green-700,
 .green-shade-2 {
-    background-color: var(--green-700);
+    background-color: var(--green-700) !important;
 }
 
 .green-800,
 .green-shade-3 {
-    background-color: var(--green-800);
+    background-color: var(--green-800) !important;
 }
 
 .green-900,
 .green-shade-4 {
-    background-color: var(--green-900);
+    background-color: var(--green-900) !important;
 }
 
 .green-A100,
 .green-accent-1 {
-    background-color: var(--green-A100);
+    background-color: var(--green-A100) !important;
 }
 
 .green-A200,
 .green-accent-2 {
-    background-color: var(--green-A200);
+    background-color: var(--green-A200) !important;
 }
 
 .green-A300,
 .green-accent-3 {
-    background-color: var(--green-A300);
+    background-color: var(--green-A300) !important;
 }
 
 .green-A400,
 .green-accent-4 {
-    background-color: var(--green-A400);
+    background-color: var(--green-A400) !important;
 }

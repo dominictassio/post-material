@@ -9,12 +9,16 @@
     <style>
     header {
         padding: 20px 0;
-        margin-bottom: 40px;
+    }
+
+    nav {
+        max-width: 1000px;
+        margin: 0 auto;
     }
 
     section {
         max-width: 1000px;
-        margin: 0 auto;
+        margin: 40px auto;
     }
 
     ul > li {
@@ -25,10 +29,10 @@
 </head>
 <body>
     <header class="grey-200">
-        <section>
+        <nav>
             <h1>Post Material <small>Styleguide</small></h1>
             <p>By <a href="https://github.com/dominictassio/">@dominictassio</a></p>
-        </section>
+        </nav>
     </header>
 
     <section>
@@ -42,6 +46,30 @@
         <button class="button-raised">.button-raised</button>
         <button class="button" disabled>.button:disabled</button>
         <button class="button-raised" disabled>.button-raised:disabled</button>
+    </section>
+
+    <hr>
+
+    <section>
+        <b>Cards</b>
+        <ul>
+            <li>.card</li>
+        </ul>
+
+        <div class="card">
+            <img src="http://placehold.it/346x178" alt="test" width="346" height="178" class="card-content--media">
+            <div class="card-content--primary">
+                <h1 class="card-content--primary-title">Title</h1>
+                <h3 class="card-content--primary-subtitle">Subhead</h3>
+            </div>
+            <div class="card-content--actions">
+                <button class="button">action</button>
+                <button class="button">action</button>
+            </div>
+            <div class="card-content--supporting">
+                <p>Greyhound divisively hello coldly wonderfully marginally far upon excluding.</p>
+            </div>
+        </div>
     </section>
 
     <footer>

@@ -1,69 +1,69 @@
 .light-green-50,
 .light-green-tint-5 {
-    background-color: var(--light-green-50);
+    background-color: var(--light-green-50) !important;
 }
 
 .light-green-100,
 .light-green-tint-4 {
-    background-color: var(--light-green-100);
+    background-color: var(--light-green-100) !important;
 }
 
 .light-green-200,
 .light-green-tint-3 {
-    background-color: var(--light-green-200);
+    background-color: var(--light-green-200) !important;
 }
 
 .light-green-300,
 .light-green-tint-2 {
-    background-color: var(--light-green-300);
+    background-color: var(--light-green-300) !important;
 }
 
 .light-green-400,
 .light-green-tint-1 {
-    background-color: var(--light-green-400);
+    background-color: var(--light-green-400) !important;
 }
 
 .light-green-500,
 .light-green {
-    background-color: var(--light-green-500);
+    background-color: var(--light-green-500) !important;
 }
 
 .light-green-600,
 .light-green-shade-1 {
-    background-color: var(--light-green-600);
+    background-color: var(--light-green-600) !important;
 }
 
 .light-green-700,
 .light-green-shade-2 {
-    background-color: var(--light-green-700);
+    background-color: var(--light-green-700) !important;
 }
 
 .light-green-800,
 .light-green-shade-3 {
-    background-color: var(--light-green-800);
+    background-color: var(--light-green-800) !important;
 }
 
 .light-green-900,
 .light-green-shade-4 {
-    background-color: var(--light-green-900);
+    background-color: var(--light-green-900) !important;
 }
 
 .light-green-A100,
 .light-green-accent-1 {
-    background-color: var(--light-green-A100);
+    background-color: var(--light-green-A100) !important;
 }
 
 .light-green-A200,
 .light-green-accent-2 {
-    background-color: var(--light-green-A200);
+    background-color: var(--light-green-A200) !important;
 }
 
 .light-green-A300,
 .light-green-accent-3 {
-    background-color: var(--light-green-A300);
+    background-color: var(--light-green-A300) !important;
 }
 
 .light-green-A400,
 .light-green-accent-4 {
-    background-color: var(--light-green-A400);
+    background-color: var(--light-green-A400) !important;
 }

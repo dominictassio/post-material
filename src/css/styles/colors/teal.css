@@ -1,69 +1,69 @@
 .teal-50,
 .teal-tint-5 {
-    background-color: var(--teal-50);
+    background-color: var(--teal-50) !important;
 }
 
 .teal-100,
 .teal-tint-4 {
-    background-color: var(--teal-100);
+    background-color: var(--teal-100) !important;
 }
 
 .teal-200,
 .teal-tint-3 {
-    background-color: var(--teal-200);
+    background-color: var(--teal-200) !important;
 }
 
 .teal-300,
 .teal-tint-2 {
-    background-color: var(--teal-300);
+    background-color: var(--teal-300) !important;
 }
 
 .teal-400,
 .teal-tint-1 {
-    background-color: var(--teal-400);
+    background-color: var(--teal-400) !important;
 }
 
 .teal-500,
 .teal {
-    background-color: var(--teal-500);
+    background-color: var(--teal-500) !important;
 }
 
 .teal-600,
 .teal-shade-1 {
-    background-color: var(--teal-600);
+    background-color: var(--teal-600) !important;
 }
 
 .teal-700,
 .teal-shade-2 {
-    background-color: var(--teal-700);
+    background-color: var(--teal-700) !important;
 }
 
 .teal-800,
 .teal-shade-3 {
-    background-color: var(--teal-800);
+    background-color: var(--teal-800) !important;
 }
 
 .teal-900,
 .teal-shade-4 {
-    background-color: var(--teal-900);
+    background-color: var(--teal-900) !important;
 }
 
 .teal-A100,
 .teal-accent-1 {
-    background-color: var(--teal-A100);
+    background-color: var(--teal-A100) !important;
 }
 
 .teal-A200,
 .teal-accent-2 {
-    background-color: var(--teal-A200);
+    background-color: var(--teal-A200) !important;
 }
 
 .teal-A300,
 .teal-accent-3 {
-    background-color: var(--teal-A300);
+    background-color: var(--teal-A300) !important;
 }
 
 .teal-A400,
 .teal-accent-4 {
-    background-color: var(--teal-A400);
+    background-color: var(--teal-A400) !important;
 }
